@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rajhihr_app *.css
+recursive-include rajhihr_app *.csv
+recursive-include rajhihr_app *.html
+recursive-include rajhihr_app *.ico
+recursive-include rajhihr_app *.js
+recursive-include rajhihr_app *.json
+recursive-include rajhihr_app *.md
+recursive-include rajhihr_app *.png
+recursive-include rajhihr_app *.py
+recursive-include rajhihr_app *.svg
+recursive-include rajhihr_app *.txt
+recursive-exclude rajhihr_app *.pyc
